@@ -1,0 +1,20 @@
+#include <iostream>
+usig namespace std;
+it main ()
+{
+int a,b,add,sub,mult;
+float div;
+cout<<"Please enter the number one:"<<endl;
+cin>>a;
+cout<<"Please enter the number two:"<<endl;
+cin>>b;
+add=a+b;
+cout<<"The addition is:"<<add;
+sub=a-b;
+cout<<"The subtraction is:"<<sub;
+mult=a*b;
+cout<<"The multiplication is:"<<mult;
+div=a/b;
+cout<<"The division of two numbers is:"<<div;
+return 0;
+}
